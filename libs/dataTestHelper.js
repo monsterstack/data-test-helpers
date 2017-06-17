@@ -106,4 +106,5 @@ module.exports.newApplicationEntry = applicationData.newApplicationEntry;
 
 // -- Misc Stuff
 module.exports.newSecurityDescriptor = newSecurityDescriptor;
+module.exports.newTenantDescriptor = newTenantDescriptor;
 module.exports.newMinimalGenericServiceDescriptor = newMinimalGenericServiceDescriptor;
