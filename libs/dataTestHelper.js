@@ -48,6 +48,21 @@ const newSecurityDescriptor = (securityPort) => {
       };
 };
 
+const newTenantDescriptor = (tenantPort) => {
+  return {
+        docsPath: 'http://cloudfront.mydocs.com/tenant',
+        endpoint: `http://localhost:${tenantPort}`,
+        healthCheckRoute:  '/health',
+        region:  'us-east-1',
+        schemaRoute:  '/swagger.json',
+        stage:  'dev',
+        status:  'Online',
+        timestamp: Date.now(),
+        type:  'TenantService',
+        version:  'v1',
+  };
+};
+
 const newMinimalGenericServiceDescriptor = (listeningPort) => {
   return {
             endpoint: `http://localhost:${listeningPort}`,
