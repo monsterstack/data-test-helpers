@@ -31,6 +31,10 @@ class MongoHelper {
 
     return p;
   }
+
+  randomObjectId() {
+    return mongoose.Types.ObjectId();
+  }
 }
 
 const newSecurityDescriptor = (securityPort) => {
