@@ -37,6 +37,12 @@ const newApplicationEntryMissingAccountId = (clientId, clientSecret) => {
   return app;
 }
 
+const newApplicationEntryInvalidId = (clientId, clientSecret) => {
+  let app = newApplicationEntry(clientId, clientSecret);
+  app.id = '2222323';
+  return app;
+}
+
 const newApplicationEntryInvalidAccountId = (clientId, clientSecret) => {
   let app = newApplicationEntry(clientId, clientSecret);
   app.accountId = '2222323';
