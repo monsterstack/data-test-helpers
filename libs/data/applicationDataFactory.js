@@ -58,6 +58,8 @@ const newApplicationEntryInvalidTenantId = (clientId, clientSecret) => {
 exports.newApplicationEntry = newApplicationEntry;
 exports.newApplicationEntryMissingAccountId = newApplicationEntryMissingAccountId;
 exports.newApplicationEntryMissingTenantId = newApplicationEntryMissingTenantId;
+exports.newApplicationEntryInvalidAccountId = newApplicationEntryInvalidAccountId;
+exports.newApplicationEntryInvalidTenantId = newApplicationEntryInvalidTenantId;
 exports.newApplicationEntryMissingName = newApplicationEntryMissingName;
 exports.newApplicationEntryMissingScope = newApplicationEntryMissingScope;
 exports.newApplicationEntryMissingStatus = newApplicationEntryMissingStatus;
