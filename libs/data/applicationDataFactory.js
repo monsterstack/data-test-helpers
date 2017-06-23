@@ -62,6 +62,7 @@ const newApplicationEntryInvalidTenantId = (clientId, clientSecret) => {
 }
 
 exports.newApplicationEntry = newApplicationEntry;
+exports.newApplicationEntryInvalidId = newApplicationEntryInvalidId;
 exports.newApplicationEntryMissingAccountId = newApplicationEntryMissingAccountId;
 exports.newApplicationEntryMissingTenantId = newApplicationEntryMissingTenantId;
 exports.newApplicationEntryInvalidAccountId = newApplicationEntryInvalidAccountId;
