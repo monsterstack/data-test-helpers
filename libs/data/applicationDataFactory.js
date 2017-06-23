@@ -37,12 +37,23 @@ const newApplicationEntryMissingAccountId = (clientId, clientSecret) => {
   return app;
 }
 
+const newApplicationEntryInvalidAccountId = (clientId, clientSecret) => {
+  let app = newApplicationEntry(clientId, clientSecret);
+  app.accountId = '2222323';
+  return app;
+}
+
 const newApplicationEntryMissingTenantId = (clientId, clientSecret) => {
   let app = newApplicationEntry(clientId, clientSecret);
   app.tenantId = null;
   return app;
 }
 
+const newApplicationEntryInvalidTenantId = (clientId, clientSecret) => {
+  let app = newApplicationEntry(clientId, clientSecret);
+  app.tenantId = '2222323';
+  return app;
+}
 
 exports.newApplicationEntry = newApplicationEntry;
 exports.newApplicationEntryMissingAccountId = newApplicationEntryMissingAccountId;

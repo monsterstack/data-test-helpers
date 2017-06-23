@@ -108,7 +108,9 @@ module.exports.newAccountEntry = accountData.newAccountEntry;
 // -- Application Data Stuff
 module.exports.newApplicationEntry = applicationData.newApplicationEntry;
 module.exports.newApplicationEntryMissingAccountId = applicationData.newApplicationEntryMissingAccountId;
+module.exports.newApplicationEntryInvalidAccountId = applicationData.newApplicationEntryInvalidAccountId;
 module.exports.newApplicationEntryMissingTenantId = applicationData.newApplicationEntryMissingTenantId;
+module.exports.newApplicationEntryInvalidTenantId = applicationData.newApplicationEntryInvalidTenantId;
 module.exports.newApplicationEntryMissingName = applicationData.newApplicationEntryMissingName;
 module.exports.newApplicationEntryMissingScope = applicationData.newApplicationEntryMissingScope;
 module.exports.newApplicationEntryMissingStatus = applicationData.newApplicationEntryMissingStatus;
