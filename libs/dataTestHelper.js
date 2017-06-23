@@ -104,6 +104,9 @@ module.exports.changeUserField = userData.changeUserField;
 
 // -- Account Data Stuff
 module.exports.newAccountEntry = accountData.newAccountEntry;
+module.exports.newAccountEntryMissingTenantId = accountData.newAccountEntryMissingTenantId;
+module.exports.newAccountEntryMissingAccountNumber = accountData.newAccountEntryMissingAccountNumber;
+
 
 // -- Application Data Stuff
 module.exports.newApplicationEntry = applicationData.newApplicationEntry;
